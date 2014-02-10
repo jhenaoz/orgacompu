@@ -21,7 +21,7 @@ HLT
    JMP 006
 
 #100
-1110 ; 100 tamaño
+1100 ; 100 tamaño
 200  ; 101 posicion para enteros
 300  ; 102 posicion para flotantes
 0    ; 103 enteros ingresados
@@ -32,16 +32,14 @@ HLT
 0    ; 108 REPRESENTACION DE ENTERO
 #150
 0
-1
+11
 0
-101001
-1
-1101
+11
 0
-101
+11
 0
-1010
-1
-10101
+11
 0
-101010
+11
+0
+111
