@@ -17,29 +17,30 @@ HLT
    INC 106
    JMP 006       ;SALTOOOOOOOOOOOOOOOOOO
 
-   MOV 106, 108 ; pongo en 0 el puntero a enteros
+   MOV 106,108 ; pongo en 0 el puntero a enteros
    MOV CX,103
    MOV BX,106
    LDB 200
    MOV 101,AX
+   INC 106      ;incremento puntero lista enteros
    CMP 102
-   JME 01B      ;SALTOOOOOOOOO
-   JEQ 01B      ;SALTOOOOOOOOO
-   JMP 020      ;SALTOOOOOOOOO
-
+   JME 01D      ;SALTOOOOOOOOO
+   JEQ 01D      ;SALTOOOOOOOOO
+   JMP 022      ;SALTOOOOOOOOO
    LOOP 013     ;SALTOOOOOOOOO
+   JMP 008      ;SALTOOOOOOOOO
 
    INC 10A ; incrementa contador casillero 1
    MOV BX,109
    STB 500
    INC 109
-   JMP 01A
+   JMP 01A    ;SALTO
 
    INC 10C ; incrementa contador casillero 1
    MOV BX,10B
    STB 600
    INC 10B
-   JMP 01A
+   JMP 01A    ;SALTO
 
 #100
 1100 ; 100 tamaño
@@ -59,7 +60,7 @@ HLT
 
 #150
 0
-1011
+1101001
 0
 111
 0
