@@ -34,13 +34,13 @@ HLT
    MOV BX,109
    STB 500
    INC 109
-   JMP 01A    ;SALTO
+   JMP 01B    ;SALTOOOOOOOOO
 
    INC 10C ; incrementa contador casillero 1
    MOV BX,10B
    STB 600
    INC 10B
-   JMP 01A    ;SALTO
+   JMP 01B    ;SALTOOOOOOOOO
 
 #100
 1100 ; 100 tamaño
