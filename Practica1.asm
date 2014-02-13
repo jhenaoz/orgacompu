@@ -4,9 +4,9 @@ MOV BX,105  ;
 LDB 150     ;carga en AX lo de BX + mem
 INC 105     ; incremento el apuntador de la lista
 CMP 108
-JEQ 009       ;SALTOOOOOOOOOOOOO
-LOOP 001      ;SALTOOOOOOOOOOOOO
-JMP 011       ;SALTOOOOOOOOOOOOO
+JEQ 009     ;SALTOOOOOOOOOOOOO
+LOOP 001    ;SALTOOOOOOOOOOOOO
+JMP 011     ;SALTOOOOOOOOOOOOO
 HLT
    INC 103 ; incrementa contador de enteros
    MOV BX,105
@@ -15,7 +15,7 @@ HLT
    MOV BX,106
    STB 200
    INC 106
-   JMP 006       ;SALTOOOOOOOOOOOOOOOOOO
+   JMP 006      ;SALTOOOOOOOOOOOOOOOOOO
 
    MOV 106,108 ; pongo en 0 el puntero a enteros
    MOV CX,103
